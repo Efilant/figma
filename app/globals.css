@@ -1,0 +1,49 @@
+:root {
+  --figma-purple: #a259ff;
+  --figma-pink: #f24e1e;
+  --figma-blue: #1abcfe;
+  --figma-green: #0acf83;
+  --bg: #0a0a0f;
+  --surface: #14141c;
+  --border: rgba(255, 255, 255, 0.07);
+  --text: #f4f4f8;
+  --muted: #8b8b9a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(162, 89, 255, 0.35);
+  color: #fff;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+a {
+  color: var(--figma-blue);
+}
